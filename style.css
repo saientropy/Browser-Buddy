@@ -1,0 +1,30 @@
+#myExtensionBubble {
+    position: absolute;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 10000;
+    width: 220px;
+  }
+  
+  #myExtensionBubble textarea {
+    width: 100%;
+    height: 60px;
+    resize: none;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+  }
+  
+  #myExtensionBubble button {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  #myExtensionBubble #response {
+    font-size: 0.9em;
+    color: #333;
+  }
+  
